@@ -1,0 +1,124 @@
+.MoveItems {
+    margin-top: 5rem;
+}
+
+.move-items-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.move-button {
+    height: 6rem;
+    width: 12rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    border-width: 0;
+    background-color: white;
+    position: relative;
+    justify-content: center;
+}
+
+.position {
+    width: 25rem;
+}
+
+.move-shape-b {
+    height: 1rem;
+    width: 5rem;
+    padding-top: 0.1rem;
+    border-radius: 1rem;
+    border-width: 0;
+    background-color: chartreuse;
+    text-align: center;
+    font-size: 0.6rem;
+    position: absolute;
+    bottom: -0.6rem;
+    right: 3.5rem;
+}
+
+.move-position-b {
+    height: 1rem;
+    width: 8rem;
+    padding-top: 0.1rem;
+    border-radius: 1rem;
+    border-width: 0;
+    background-color: chartreuse;
+    text-align: center;
+    font-size: 0.6rem;
+    position: absolute;
+    bottom: -0.6rem;
+    right: 8.5rem;
+    z-index: 2;
+}
+
+.left-arrow {
+    width: 0;
+    height: 0;
+    border-top: 2rem solid transparent;
+    border-right: 4rem solid gray;
+    border-bottom: 2rem solid transparent;
+    position: absolute;
+    top: 1rem;
+    right: 4rem
+}
+
+.up-arrow {
+    width: 0;
+    height: 0;
+    border-left: 2rem solid transparent;
+    border-right: 2rem solid transparent;
+    border-bottom: 4rem solid gray;
+    position: absolute;
+    top: 1rem;
+    left: 4rem
+}
+
+.down-arrow {
+    width: 0;
+    height: 0;
+    border-left: 2rem solid transparent;
+    border-right: 2rem solid transparent;
+    border-top: 4rem solid gray;
+    position: absolute;
+    top: 1rem;
+    right: 4rem
+}
+
+.right-arrow {
+    width: 0;
+    height: 0;
+    border-top: 2rem solid transparent;
+    border-left: 4rem solid gray;
+    border-bottom: 2rem solid transparent;
+    position: absolute;
+    top: 1rem;
+    right: 4rem
+}
+
+.underline {
+    height: 0.1rem;
+    width: 60rem;
+    margin: auto;
+    margin-top: 3rem;
+    background-color: grey;
+}
+
+.move-button:hover {
+    background-color: #ffa700;
+}
+
+.move-button:hover>.left-arrow {
+    border-right: 4rem solid white;
+}
+
+.move-button:hover>.up-arrow {
+    border-bottom: 4rem solid white;
+}
+
+.move-button:hover>.down-arrow {
+    border-top: 4rem solid white;
+}
+
+.move-button:hover>.right-arrow {
+    border-left: 4rem solid white;
+}

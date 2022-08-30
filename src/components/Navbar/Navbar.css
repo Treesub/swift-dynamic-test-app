@@ -1,0 +1,45 @@
+.header {
+    user-select: none;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+.changeLang {
+    height: 2rem;
+    width: 4rem;
+    margin-right: 0.5rem;
+    display: block;
+}
+
+.LangSym {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+.LangSym:hover {
+    background-color: #ffa700;
+    color: white;
+
+}
+
+.show {
+    height: 2.5rem;
+    width: 3.5rem;
+    margin: 0.1rem 0;
+    border-radius: 0.5rem;
+    border-width: 0;
+    background-color: white;
+}
+
+.show:hover {
+    background-color: #ffa700;
+    color: white
+}
+
+.hidden {
+    display: none;
+}
